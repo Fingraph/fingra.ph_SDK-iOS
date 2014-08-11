@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0C3811EA1588703300863110 /* FingraphAgent */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0C3811EB1588703300863110 /* Build configuration list for PBXAggregateTarget "FingraphAgent" */;
+			buildPhases = (
+				0C3811EE1588706F00863110 /* ShellScript */,
+				15ED3FB018DBD299002E6087 /* CopyFiles */,
+			);
+			dependencies = (
+			);
+			name = FingraphAgent;
+			productName = FingraphAgent;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0C3811C515886E6200863110 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC8B50C1587108D00CFB370 /* Foundation.framework */; };
+		0C3811D315886EAD00863110 /* FingraphAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC8B5121587108D00CFB370 /* FingraphAgent.m */; };
+		0C3811D915886F1500863110 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC8B50C1587108D00CFB370 /* Foundation.framework */; };
+		0C3811E615886F2E00863110 /* FingraphAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC8B5121587108D00CFB370 /* FingraphAgent.m */; };
+		155C39DA18C6C484002A9E23 /* DBHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 155C39D818C6C484002A9E23 /* DBHandler.m */; };
+		155C39DB18C6C4EF002A9E23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 155C39B618C5DF95002A9E23 /* UIKit.framework */; };
+		155C39DC18C6C4F8002A9E23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 155C39B618C5DF95002A9E23 /* UIKit.framework */; };
+		155C3A2718C807F9002A9E23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC8B50C1587108D00CFB370 /* Foundation.framework */; };
+		155C3A2918C807F9002A9E23 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 155C3A2818C807F9002A9E23 /* CoreGraphics.framework */; };
+		155C3A2A18C807F9002A9E23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 155C39B618C5DF95002A9E23 /* UIKit.framework */; };
+		155C3A3018C807F9002A9E23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 155C3A2E18C807F9002A9E23 /* InfoPlist.strings */; };
+		155C3A3218C807F9002A9E23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 155C3A3118C807F9002A9E23 /* main.m */; };
+		155C3A3618C807F9002A9E23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 155C3A3518C807F9002A9E23 /* AppDelegate.m */; };
+		155C3A3918C807F9002A9E23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 155C3A3718C807F9002A9E23 /* Main.storyboard */; };
+		155C3A3C18C807F9002A9E23 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 155C3A3B18C807F9002A9E23 /* ViewController.m */; };
+		155C3A3E18C807F9002A9E23 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 155C3A3D18C807F9002A9E23 /* Images.xcassets */; };
+		155C3A5818C80D07002A9E23 /* FingraphAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC8B5121587108D00CFB370 /* FingraphAgent.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		155C3A5A18C80D0A002A9E23 /* DBHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 155C39D818C6C484002A9E23 /* DBHandler.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		155C3A5B18C80D3C002A9E23 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 155C39DD18C6C503002A9E23 /* libsqlite3.dylib */; };
+		15ED3F8B18DBC617002E6087 /* DBHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 155C39D818C6C484002A9E23 /* DBHandler.m */; };
+		15ED3FB118DBD29E002E6087 /* FingraphAgent.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0CC8B5111587108D00CFB370 /* FingraphAgent.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		15ED3FB018DBD299002E6087 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				15ED3FB118DBD29E002E6087 /* FingraphAgent.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0C3811C415886E6200863110 /* libFingraphAgent-Simulator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libFingraphAgent-Simulator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C3811C815886E6200863110 /* FingraphAgent-Simulator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FingraphAgent-Simulator-Prefix.pch"; sourceTree = "<group>"; };
+		0C3811D815886F1500863110 /* libFingraphAgent-Device.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libFingraphAgent-Device.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C3811DC15886F1500863110 /* FingraphAgent-Device-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FingraphAgent-Device-Prefix.pch"; sourceTree = "<group>"; };
+		0CC8B50C1587108D00CFB370 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0CC8B5101587108D00CFB370 /* FingraphAgent-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FingraphAgent-Prefix.pch"; sourceTree = "<group>"; };
+		0CC8B5111587108D00CFB370 /* FingraphAgent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FingraphAgent.h; sourceTree = "<group>"; };
+		0CC8B5121587108D00CFB370 /* FingraphAgent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FingraphAgent.m; sourceTree = "<group>"; };
+		155C39B618C5DF95002A9E23 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		155C39D718C6C484002A9E23 /* DBHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBHandler.h; sourceTree = "<group>"; };
+		155C39D818C6C484002A9E23 /* DBHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBHandler.m; sourceTree = "<group>"; };
+		155C39DD18C6C503002A9E23 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		155C3A2618C807F9002A9E23 /* FingraphAgentTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FingraphAgentTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		155C3A2818C807F9002A9E23 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		155C3A2D18C807F9002A9E23 /* FingraphAgentTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FingraphAgentTest-Info.plist"; sourceTree = "<group>"; };
+		155C3A2F18C807F9002A9E23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		155C3A3118C807F9002A9E23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		155C3A3318C807F9002A9E23 /* FingraphAgentTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FingraphAgentTest-Prefix.pch"; sourceTree = "<group>"; };
+		155C3A3418C807F9002A9E23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		155C3A3518C807F9002A9E23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		155C3A3818C807F9002A9E23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		155C3A3A18C807F9002A9E23 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		155C3A3B18C807F9002A9E23 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		155C3A3D18C807F9002A9E23 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		155C3A4418C807FA002A9E23 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C3811C115886E6200863110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				155C39DB18C6C4EF002A9E23 /* UIKit.framework in Frameworks */,
+				0C3811C515886E6200863110 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C3811D515886F1500863110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				155C39DC18C6C4F8002A9E23 /* UIKit.framework in Frameworks */,
+				0C3811D915886F1500863110 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		155C3A2318C807F9002A9E23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				155C3A5B18C80D3C002A9E23 /* libsqlite3.dylib in Frameworks */,
+				155C3A2918C807F9002A9E23 /* CoreGraphics.framework in Frameworks */,
+				155C3A2A18C807F9002A9E23 /* UIKit.framework in Frameworks */,
+				155C3A2718C807F9002A9E23 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C3811C615886E6200863110 /* FingraphAgent-Simulator */ = {
+			isa = PBXGroup;
+			children = (
+				0C3811C715886E6200863110 /* Supporting Files */,
+			);
+			path = "FingraphAgent-Simulator";
+			sourceTree = "<group>";
+		};
+		0C3811C715886E6200863110 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C3811C815886E6200863110 /* FingraphAgent-Simulator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0C3811DA15886F1500863110 /* FingraphAgent-Device */ = {
+			isa = PBXGroup;
+			children = (
+				0C3811DB15886F1500863110 /* Supporting Files */,
+			);
+			path = "FingraphAgent-Device";
+			sourceTree = "<group>";
+		};
+		0C3811DB15886F1500863110 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C3811DC15886F1500863110 /* FingraphAgent-Device-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0CC8B4FE1587108D00CFB370 = {
+			isa = PBXGroup;
+			children = (
+				0CC8B50E1587108D00CFB370 /* FingraphAgent */,
+				0C3811C615886E6200863110 /* FingraphAgent-Simulator */,
+				0C3811DA15886F1500863110 /* FingraphAgent-Device */,
+				155C3A2B18C807F9002A9E23 /* FingraphAgentTest */,
+				0CC8B50B1587108D00CFB370 /* Frameworks */,
+				0CC8B50A1587108D00CFB370 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0CC8B50A1587108D00CFB370 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C3811C415886E6200863110 /* libFingraphAgent-Simulator.a */,
+				0C3811D815886F1500863110 /* libFingraphAgent-Device.a */,
+				155C3A2618C807F9002A9E23 /* FingraphAgentTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CC8B50B1587108D00CFB370 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				155C39DD18C6C503002A9E23 /* libsqlite3.dylib */,
+				155C39B618C5DF95002A9E23 /* UIKit.framework */,
+				0CC8B50C1587108D00CFB370 /* Foundation.framework */,
+				155C3A2818C807F9002A9E23 /* CoreGraphics.framework */,
+				155C3A4418C807FA002A9E23 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0CC8B50E1587108D00CFB370 /* FingraphAgent */ = {
+			isa = PBXGroup;
+			children = (
+				0CC8B5111587108D00CFB370 /* FingraphAgent.h */,
+				0CC8B5121587108D00CFB370 /* FingraphAgent.m */,
+				155C39D718C6C484002A9E23 /* DBHandler.h */,
+				155C39D818C6C484002A9E23 /* DBHandler.m */,
+				0CC8B50F1587108D00CFB370 /* Supporting Files */,
+			);
+			path = FingraphAgent;
+			sourceTree = "<group>";
+		};
+		0CC8B50F1587108D00CFB370 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0CC8B5101587108D00CFB370 /* FingraphAgent-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		155C3A2B18C807F9002A9E23 /* FingraphAgentTest */ = {
+			isa = PBXGroup;
+			children = (
+				155C3A3418C807F9002A9E23 /* AppDelegate.h */,
+				155C3A3518C807F9002A9E23 /* AppDelegate.m */,
+				155C3A3718C807F9002A9E23 /* Main.storyboard */,
+				155C3A3A18C807F9002A9E23 /* ViewController.h */,
+				155C3A3B18C807F9002A9E23 /* ViewController.m */,
+				155C3A3D18C807F9002A9E23 /* Images.xcassets */,
+				155C3A2C18C807F9002A9E23 /* Supporting Files */,
+			);
+			path = FingraphAgentTest;
+			sourceTree = "<group>";
+		};
+		155C3A2C18C807F9002A9E23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				155C3A2D18C807F9002A9E23 /* FingraphAgentTest-Info.plist */,
+				155C3A2E18C807F9002A9E23 /* InfoPlist.strings */,
+				155C3A3118C807F9002A9E23 /* main.m */,
+				155C3A3318C807F9002A9E23 /* FingraphAgentTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C3811C315886E6200863110 /* FingraphAgent-Simulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C3811CE15886E6200863110 /* Build configuration list for PBXNativeTarget "FingraphAgent-Simulator" */;
+			buildPhases = (
+				0C3811C015886E6200863110 /* Sources */,
+				0C3811C115886E6200863110 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FingraphAgent-Simulator";
+			productName = "FingraphAgent-Simulator";
+			productReference = 0C3811C415886E6200863110 /* libFingraphAgent-Simulator.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		0C3811D715886F1500863110 /* FingraphAgent-Device */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C3811E015886F1500863110 /* Build configuration list for PBXNativeTarget "FingraphAgent-Device" */;
+			buildPhases = (
+				0C3811D415886F1500863110 /* Sources */,
+				0C3811D515886F1500863110 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FingraphAgent-Device";
+			productName = "FingraphAgent-Device";
+			productReference = 0C3811D815886F1500863110 /* libFingraphAgent-Device.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		155C3A2518C807F9002A9E23 /* FingraphAgentTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 155C3A5218C807FA002A9E23 /* Build configuration list for PBXNativeTarget "FingraphAgentTest" */;
+			buildPhases = (
+				155C3A2218C807F9002A9E23 /* Sources */,
+				155C3A2318C807F9002A9E23 /* Frameworks */,
+				155C3A2418C807F9002A9E23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FingraphAgentTest;
+			productName = FingraphAgentTest;
+			productReference = 155C3A2618C807F9002A9E23 /* FingraphAgentTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CC8B5001587108D00CFB370 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastTestingUpgradeCheck = 0510;
+				LastUpgradeCheck = 0600;
+				TargetAttributes = {
+					155C3A2518C807F9002A9E23 = {
+						DevelopmentTeam = FN7ZXTXDJC;
+					};
+				};
+			};
+			buildConfigurationList = 0CC8B5031587108D00CFB370 /* Build configuration list for PBXProject "FingraphAgent" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0CC8B4FE1587108D00CFB370;
+			productRefGroup = 0CC8B50A1587108D00CFB370 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C3811C315886E6200863110 /* FingraphAgent-Simulator */,
+				0C3811D715886F1500863110 /* FingraphAgent-Device */,
+				0C3811EA1588703300863110 /* FingraphAgent */,
+				155C3A2518C807F9002A9E23 /* FingraphAgentTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		155C3A2418C807F9002A9E23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				155C3A3E18C807F9002A9E23 /* Images.xcassets in Resources */,
+				155C3A3018C807F9002A9E23 /* InfoPlist.strings in Resources */,
+				155C3A3918C807F9002A9E23 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C3811EE1588706F00863110 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "rm -rf ${BUILT_PRODUCTS_DIR}/libLibrary-ios4.0.a \n\nlipo -create \"${BUILT_PRODUCTS_DIR}/../${CONFIGURATION}-iphonesimulator/libFingraphAgent-Simulator.a\" \\\n\"${BUILT_PRODUCTS_DIR}/libFingraphAgent-Device.a\" -output \\\n\"${BUILT_PRODUCTS_DIR}/libFingraphAgent.a\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C3811C015886E6200863110 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C3811D315886EAD00863110 /* FingraphAgent.m in Sources */,
+				155C39DA18C6C484002A9E23 /* DBHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C3811D415886F1500863110 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15ED3F8B18DBC617002E6087 /* DBHandler.m in Sources */,
+				0C3811E615886F2E00863110 /* FingraphAgent.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		155C3A2218C807F9002A9E23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				155C3A3C18C807F9002A9E23 /* ViewController.m in Sources */,
+				155C3A5818C80D07002A9E23 /* FingraphAgent.m in Sources */,
+				155C3A5A18C80D0A002A9E23 /* DBHandler.m in Sources */,
+				155C3A3618C807F9002A9E23 /* AppDelegate.m in Sources */,
+				155C3A3218C807F9002A9E23 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		155C3A2E18C807F9002A9E23 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				155C3A2F18C807F9002A9E23 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		155C3A3718C807F9002A9E23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				155C3A3818C807F9002A9E23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C3811CC15886E6200863110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALTERNATE_PERMISSIONS_FILES = iphoneos;
+				DSTROOT = /tmp/FingraphAgent_Simulator.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FingraphAgent-Simulator/FingraphAgent-Simulator-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				VALID_ARCHS = "armv6 armv7 i386";
+			};
+			name = Debug;
+		};
+		0C3811CD15886E6200863110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALTERNATE_PERMISSIONS_FILES = iphoneos;
+				DSTROOT = /tmp/FingraphAgent_Simulator.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FingraphAgent-Simulator/FingraphAgent-Simulator-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				VALID_ARCHS = "armv6 armv7 i386";
+			};
+			name = Release;
+		};
+		0C3811E115886F1500863110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/FingraphAgent_Device.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FingraphAgent-Device/FingraphAgent-Device-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = iphoneos;
+				VALID_ARCHS = "armv6 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		0C3811E215886F1500863110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/FingraphAgent_Device.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FingraphAgent-Device/FingraphAgent-Device-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = iphoneos;
+				VALID_ARCHS = "armv6 armv7 armv7s";
+			};
+			name = Release;
+		};
+		0C3811EC1588703300863110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv6 armv7 armv7s i386";
+			};
+			name = Debug;
+		};
+		0C3811ED1588703300863110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv6 armv7 armv7s i386";
+			};
+			name = Release;
+		};
+		0CC8B5141587108D00CFB370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv6 armv7 i386";
+			};
+			name = Debug;
+		};
+		0CC8B5151587108D00CFB370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv6 armv7 i386";
+			};
+			name = Release;
+		};
+		155C3A5318C807FA002A9E23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FingraphAgentTest/FingraphAgentTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				INFOPLIST_FILE = "FingraphAgentTest/FingraphAgentTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "armv6 armv7 i386 armv7s x86_64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		155C3A5418C807FA002A9E23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FingraphAgentTest/FingraphAgentTest-Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				INFOPLIST_FILE = "FingraphAgentTest/FingraphAgentTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "armv6 armv7 i386 armv7s x86_64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C3811CE15886E6200863110 /* Build configuration list for PBXNativeTarget "FingraphAgent-Simulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C3811CC15886E6200863110 /* Debug */,
+				0C3811CD15886E6200863110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C3811E015886F1500863110 /* Build configuration list for PBXNativeTarget "FingraphAgent-Device" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C3811E115886F1500863110 /* Debug */,
+				0C3811E215886F1500863110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C3811EB1588703300863110 /* Build configuration list for PBXAggregateTarget "FingraphAgent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C3811EC1588703300863110 /* Debug */,
+				0C3811ED1588703300863110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CC8B5031587108D00CFB370 /* Build configuration list for PBXProject "FingraphAgent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CC8B5141587108D00CFB370 /* Debug */,
+				0CC8B5151587108D00CFB370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		155C3A5218C807FA002A9E23 /* Build configuration list for PBXNativeTarget "FingraphAgentTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				155C3A5318C807FA002A9E23 /* Debug */,
+				155C3A5418C807FA002A9E23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0CC8B5001587108D00CFB370 /* Project object */;
+}
